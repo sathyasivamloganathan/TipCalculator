@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIP CALCULATOR</title>
+    <link rel="stylesheet" href="tipCalculator.css">
+    
+</head>
+<body>
+    <div class="wholeDiv">
+        <div id="calculatorDiv">
+            <div class="title">TIP CALCULATOR</div>
+            <div>
+                <input
+                id="amountDiv"
+                placeholder="Amount"
+                onkeyup="calculateAmount()"
+                type="text"
+                >
+            </div>
+            <div class="inputContainer">
+                <input
+                id="tipAmountDiv"
+                placeholder="% Tip Percentage"
+                onkeyup="calculateAmount()"
+                type="text"
+                >
+            </div>
+            
+            <div class="increaseAndDecreasePeople">
+                <button class="splitDown" onclick="increasePeople()">+</button>
+                <span class="splitAmount" id="numberofPeople">1</span>
+                <button class="splitDown" onclick="decreasePeople()">-</button>
+            </div>
+
+
+            <div class="totalAmount">
+                <p>Amount per person</p>
+                <div id="perpersonTotal">$0</div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

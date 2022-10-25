@@ -1,0 +1,56 @@
+body{
+    background-color: #405681;
+}
+
+
+#calculatorDiv{
+    width: 300px;
+    height: 500px;
+    background-color: #171a4b;
+    border-radius: 20px;
+    margin: 120px auto;
+}
+
+.title{
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+#amountDiv,#tipAmountDiv{
+    width: 80%;
+    height: 20px;
+    background-color: aliceblue;
+    display: block;
+    margin: 20px;
+
+}
+#amountDiv::placeholder,#tipAmountDiv::placeholder{
+    color: rgb(102, 100, 100);
+    margin: 13px;
+}
+
+#numberofPeople{
+    color: antiquewhite;
+}
+
+#perpersonTotal{
+    color: aliceblue;
+}
+
+.increaseAndDecreasePeople{
+    margin: 30px auto auto 20px;
+}
+
+.splitAmount{
+    margin: 2px;
+}
+
+.totalAmount p{
+    color: white;
+    text-align: center;
+}
+.totalAmount #perpersonTotal{
+    color: white;
+    text-align: center;
+}
